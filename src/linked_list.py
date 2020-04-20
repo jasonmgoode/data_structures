@@ -128,28 +128,3 @@ class LinkedList:
                     prev = current
                     current = current.next
                     i += 1
-          
-    
-    
-my_list = LinkedList()
-my_list.addAtHead(3)
-my_list.addAtTail(2)
-my_list.addAtHead(8)
-my_list.addAtIndex(1, 4)
-my_list.deleteAtIndex(8)
-current = my_list.head
-
-while current:
-    print(current.data)
-    current = current.next
-
-#print(my_list.get(0))
-# new_node = Node(2)
-
-# current = my_list.head
-# while current:
-#     print(current.data)
-#     current = current.next
-
-# print(current.data)
-# current.next = new_node
