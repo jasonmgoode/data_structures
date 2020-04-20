@@ -1,2 +1,3 @@
 # Data Structures
-Data Structures
+
+- Singly Linked List
